@@ -17,9 +17,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity"
+        <activity android:name=".glsclasses.FirstTriangleTest"
             android:screenOrientation="portrait"
-            android:configChanges="keyboard|keyboardHidden|orientation">
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
